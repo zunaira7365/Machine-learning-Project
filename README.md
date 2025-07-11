@@ -98,7 +98,7 @@ Apply final scaling to combined features before modeling.
 
 ### 7. Modeling:
 
-#### LightGBM Regressor:
+#### A. LightGBM Regressor:
 
 Train a LightGBM model with default hyperparameters on combined features.
 
@@ -111,7 +111,7 @@ Visualize predicted vs. actual prices.
 **MAE: 21.94, RMSE: 40.44, R²: 0.495
 MAPE: 21.44%, Accuracy: 78.56%**
 
-#### Hyperparameter Tuning for LightGBM:
+#### B. Hyperparameter Tuning for LightGBM:
 
 Perform RandomizedSearchCV to find better hyperparameters for LightGBM.
 
@@ -123,7 +123,7 @@ Output best parameters and evaluation metrics.
 
 **Tuned MAE: 21.71, RMSE: 40.66, Accuracy: 78.83%**
 
-#### Neural Network:
+#### C. Neural Network:
 
 Define a simple feedforward neural network using TensorFlow/Keras:
 
@@ -143,5 +143,5 @@ Plot training and validation loss curves.
 
 Visualize predicted vs. actual prices.
 
-**Neural Network → MAE: 33.14, RMSE: 52.35, R²: 0.154
+**Neural Network → MAE: 33.14, RMSE: 52.35, R²: 0.154, 
 MAPE: 32.24%, Accuracy: 67.76%**
