@@ -1,7 +1,10 @@
-# Machine-learning-Project
+# Machine-learning-Project:
 This repository prepares a cleaned, feature-rich dataset for predicting Airbnb prices in Berlin. It includes tabular, spatial, and image features from publicly available Airbnb datasets.
 
-### 1. Load & Clean Listings + Calendar Data
+### 1. Load & Clean Listings + Calendar Data:
+
+you can download data for all cities by clicking following link
+https://insideairbnb.com/get-the-data/
 
 Load listings.csv and clean the price column.
 
