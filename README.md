@@ -1,1 +1,2 @@
 # Machine-learning-Project
+This repository prepares a cleaned, feature-rich dataset for predicting Airbnb prices in Berlin. It includes tabular, spatial, and image features from publicly available Airbnb datasets.
