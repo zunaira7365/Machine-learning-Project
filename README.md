@@ -18,9 +18,9 @@ Save intermediate base_df.
 Select tabular features: 
         e.g., bedrooms, bathrooms, review_scores_rating, instant_bookable, and amenities.
 
-Binary features (e.g., instant bookable, amenity presence)
+Binary features (e.g., instant bookable, amenity presence).
 
-Missing values are filled with median values
+Missing values are filled with median values.
 
 ### 3. Spatial Features:
 
@@ -42,15 +42,15 @@ Create 2048-dimensional vector per image.
 
 Save to image_features.csv for future use.
 
-### 5. Merge All Features into Final Dataset
+### 5. Merge All Features into Final Dataset:
 
 Merge:
 
-Tabular, Spatial features and Image embeddings
+Tabular, Spatial features and Image embeddings.
 
 Drop latitude and longitude cloumns because we have created a new column of dist_to_center_km
 by using them. So we don't need any more.
 
-Place id as first column
+Place id as first column.
 
-Save full dataset as cleaned_listings.csv
+Save full dataset as cleaned_listings.csv.
