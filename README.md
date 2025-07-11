@@ -13,12 +13,6 @@ Image features: Extracted features from listing photos (2048-dimensional vectors
 
 The target variable is transformed using the natural logarithm to stabilize variance and improve model performance.
 
-#### How to create requirements.txt file:
-
-Create a text file named requirements.txt in your project folder.
-Copy paste all lines in your created .txt file. 
-Run:
-pip install -r requirements.txt
 
 ### 1. Load & Clean Listings + Calendar Data:
 
