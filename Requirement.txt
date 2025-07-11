@@ -13,7 +13,12 @@ tqdm>=4.66.0
 # TensorFlow for image embedding (ResNet50)
 tensorflow>=2.13.0
 keras>=2.13.0
-
-# PyTorch (only torchvision used, minimal install)
 torch>=2.0.0
 torchvision>=0.15.0
+matplotlib>=3.4.0
+seaborn>=0.11.0
+scikit-learn>=1.0.0
+lightgbm>=3.3.0
+xgboost>=1.5.0
+tensorflow>=2.8.0
+scipy>=1.7.0
