@@ -3,7 +3,7 @@ This repository prepares a cleaned, feature-rich dataset for predicting Airbnb p
 
 ### 1. Load & Clean Listings + Calendar Data:
 
-You can download data for all cities by clicking following link https://insideairbnb.com/get-the-data/.
+You can find and download all data files for all cities by clicking following link https://insideairbnb.com/get-the-data/.
 
 Load listings.csv and clean the price column.
 
