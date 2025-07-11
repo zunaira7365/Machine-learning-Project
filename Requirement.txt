@@ -1,0 +1,19 @@
+# Core data processing
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Date/time and geospatial
+geopy>=2.4.0
+
+# Image handling and downloads
+Pillow>=10.0.0
+requests>=2.31.0
+tqdm>=4.66.0
+
+# TensorFlow for image embedding (ResNet50)
+tensorflow>=2.13.0
+keras>=2.13.0
+
+# PyTorch (only torchvision used, minimal install)
+torch>=2.0.0
+torchvision>=0.15.0
